@@ -1,0 +1,114 @@
+#brand{
+    background-color: #c5cecf;
+    width: 99.3%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#imagem-barra{
+    display: flex;
+}
+
+.logo-index{
+    border: none;
+    padding: 0;
+}
+
+.barra-menu{
+    width: 99.3%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c5cecf;
+    height: 40px;
+    align-items: center;
+}
+
+.menu-item{
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.aqui{
+    text-decoration: none;
+    color: black;
+}
+.aqui:hover{
+    color: #FF66C4;
+    font-weight: bold;
+}
+
+#cadastro{
+    width: 98%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#texto-cadastro{
+    text-align: justify;
+    padding: 10px;
+}
+#titulo-cadastro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    height: 10px;
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+footer {
+    background-color: #c5cecf;
+    color: black;
+    width: 99.4%;
+    height: 50px;
+    bottom: 0px;  
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#texto-footer{
+    margin-left: auto;
+    margin-right: auto;
+}
