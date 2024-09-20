@@ -1,0 +1,108 @@
+#brand{
+    background-color: #c5cecf;
+    width: 99.3%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#imagem-barra{
+    display: flex;
+}
+
+.logo-index{
+    border: none;
+    padding: 0;
+}
+
+.barra-menu{
+    width: 99.3%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c5cecf;
+    height: 40px;
+    align-items: center;
+}
+
+.menu-item{
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.aqui{
+    text-decoration: none;
+    color: black;
+}
+.aqui:hover{
+    color: #FF66C4;
+    font-weight: bold;
+}
+
+#sobre{
+    width: 98%;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+
+    width: 100%;
+}
+
+.imagemWag {
+    flex: 1; 
+    max-width: 100; 
+}
+
+.imagemWag img {
+    width: 500px; 
+    height: auto; 
+    margin-left: 10px;
+}
+
+.conteudo {
+    flex: 1; 
+    padding-left: 10px; 
+    margin-right: 160px;
+}
+
+table {
+    background-color: #c5cecf;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    background-color: #c5cecf;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #c5cecf;
+    color: black;
+    width: 99.4%;
+    height: 50px;
+    bottom: 0px;  
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#texto-footer{
+    margin-left: auto;
+    margin-right: auto;
+}
